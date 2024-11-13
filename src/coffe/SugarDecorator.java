@@ -1,6 +1,6 @@
 package coffe;
 
-class SugarDecorator extends CoffeeDecorator {
+public class SugarDecorator extends CoffeeDecorator {
     public SugarDecorator(Coffee coffee) {
         super(coffee);
     }
