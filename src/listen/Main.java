@@ -1,6 +1,5 @@
 package listen;
 
-import streams.Person;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +7,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        Container<Person> personContainer = new Container<>();
+        Container<listen.Person> personContainer = new Container<>();
         personContainer.set(new Person());
         Person object = personContainer.getObject();
 
